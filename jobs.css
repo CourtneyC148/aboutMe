@@ -18,11 +18,8 @@ body {
     text-align: center;
 }
 
-h2 {
-    font-size: 30px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #232323;
+a {
+    text-decoration: none;
 }
 
 /*** Header Section ***/
@@ -32,6 +29,7 @@ h2 {
     height: 90vh;
     background-position: 50% 40%;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #header {
