@@ -82,7 +82,8 @@ h1 {
 
 /*** School Section ***/
 .container {
-    padding: 150px 5%;
+    padding: 100px 5%;
+    overflow: hidden;
 }
 
 .text {
@@ -103,4 +104,18 @@ h1 {
 
 img {
     max-width: 100%;
+}
+
+/*** footer ***/
+footer {
+    height: 100px;
+    background-color: #ebebeb;
+    color: #d91473;
+}
+
+footer p {
+    padding: 40px 0 20px 5%;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: left;
 }
