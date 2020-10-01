@@ -1,5 +1,16 @@
+/*** Reset ***/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+}
+
 body {
-    text-align: center;
     color: #555555;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff;
@@ -17,22 +28,72 @@ h1 {
     color: #d91473;
 }
 
-img {
-    width: 50%;
+/*** Header ***/
+
+.heroImg {
+    background-image: url("img/clouds.jpg");
+    height: 90vh;
+    background-position: 50% 40%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#headerText {
+    position: relative;
+    top: 60%;
+    left: -2%;
+    text-align: center;
+}
+
+#headerText p {
+    color: #232323;
+    font-size: 20px;
+    font-weight: 600;
     animation: moveInBottom 1s ease-out;
+    padding-top: 30px;
+}
+
+/*** About Me Section ***/
+
+.aboutContainer {
+    padding: 50px 5%;
+    overflow: hidden;
+}
+
+.img {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+    width: 60%;
+    border-radius: 7px;
 }
 
 h2 {
     font-size: 20px;
     color: #232323;
+    text-align: center;
+    padding: 40px 0;
+    text-transform: uppercase;
 }
 
-ul {
-    list-style-type: none;
+.text {
+    position: relative;
+    top: 50px;
 }
 
 li {
     padding: 10px 0 10px 0;
+    line-height: 1.5;
+}
+
+.link {
+    padding-top: 20px;
+    color: #232323;
+    font-weight: 600;
 }
 
 a {
@@ -42,15 +103,11 @@ a {
 
 a:hover {
     color: #720439;
+    transition: 1s;
 }
 
 .slash {
     text-decoration: line-through;
-}
-
-p {
-    color: #232323;
-    font-weight: 600;
 }
 
 
